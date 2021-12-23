@@ -1,0 +1,38 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.single_product{
+    box-shadow: 1px 1px 4px 1px grey;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.barchart{
+    color: inherit;
+}
+.mid{
+    align-items: center;
+}
+
+.single_product h3{
+    color: crimson;
+}
+.select_filter{
+    text-align: center;
+    width: 150px;
+    margin: 10px auto;
+}
+.select_filter select{
+    text-align: center;
+    width: 200px;
+    background: lightgray;
+    padding: 5px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
